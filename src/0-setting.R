@@ -1,0 +1,8 @@
+library(readstata13)
+library(tidyverse)
+library(ggridges)
+library(extrafont)
+library(ggpubr)
+library(Hmisc)
+`%out%` = Negate(`%in%`)
+mycol <- c("#08306B", "#238B45", "#FD8D3C", "#D4B9DA", "#FFEDA0")
